@@ -13,7 +13,7 @@
      <?php foreach ($iteams as $iteam)
      {
          $iteam_clean = htmlspecialchars($iteam);
-         echo "<li><p>$place_clean</p></li>";
+         echo "<li><p>$iteam_clean</p></li>";
 
      }
 
