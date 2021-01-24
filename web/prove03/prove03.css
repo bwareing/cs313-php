@@ -1,0 +1,15 @@
+div.banner{
+    height: 100px;
+    background: linear-gradient(to right, black,white);
+    color: white;
+}
+div.cart{
+    float: right;
+}
+div.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+    padding: 10px;
+}
