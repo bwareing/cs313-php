@@ -1,3 +1,5 @@
+<?php $iteams =($_POST["iteams"]); 
+ $address = htmlspecialchars($_POST["address"]); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,5 +10,6 @@
 <body>
     <h1>Purchase confirmed</h1>
     <p>iteams in cart: <?=$iteams ?></p>
+    <p>Your address: <?=$address ?></p>
 </body>
 </html>
