@@ -12,18 +12,11 @@
  </head>
  <body>
 
-     <?php
-        $iteams = array(
-            '0' => "piano",
-            '1' => "black piano",
-            '2' => "red gutiar",
-            '3' => "white gutiar");
-            
-         ?>
-     <?php foreach (($_POST["iteams"]) as $vaule)
+   
+     <?php foreach ($iteams as $iteam)
      {
        
-        echo $_POST[$vaule])
+        echo "$iteam";
      }
       ?>
 
