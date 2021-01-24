@@ -10,12 +10,17 @@
      <title>your cart</title>
  </head>
  <body>
-     <p>iteams in cart: <?$iteams ?></p>
+     <?php foreach ($iteams as $iteam)
+     {
+         $iteam_clean = htmlspecialchars($iteam);
+         echo "<li><p>$place_clean</p></li>";
+
+     }
 
 
 
      <p><a href = "prove03.html">back to shopping</a></p>
-     <p><a href = "confirmation.php">confirmation</a></p>
+     <p><a href = "checkout.php">confirmation</a></p>
 
      
  </body>
